@@ -55,9 +55,9 @@
   .eyebrow::before{content:"";display:inline-block;width:18px;height:1px;background:var(--mute)}
   .section-num{font-family:var(--mono);font-size:11px;color:var(--mute);letter-spacing:0.16em}
   .display{font-family:var(--serif);font-weight:500;letter-spacing:0.01em;line-height:1.25}
-  .h1{font-size:clamp(44px, 6.2vw, 88px);font-weight:400;line-height:1.12;letter-spacing:0.005em}
-  .h2{font-size:clamp(32px, 3.8vw, 54px);font-weight:500;line-height:1.25;letter-spacing:0.01em}
-  .h3{font-size:clamp(22px, 2vw, 28px);font-weight:500;line-height:1.4}
+  .h1{font-size:clamp(44px, 6.2vw, 88px);font-weight:400;line-height:1.12;letter-spacing:0.005em;text-wrap:balance;word-break:auto-phrase}
+  .h2{font-size:clamp(32px, 3.8vw, 54px);font-weight:500;line-height:1.25;letter-spacing:0.01em;text-wrap:balance;word-break:auto-phrase}
+  .h3{font-size:clamp(22px, 2vw, 28px);font-weight:500;line-height:1.4;text-wrap:balance;word-break:auto-phrase}
   .lead{font-size:19px;line-height:1.85;color:var(--ink-2);max-width:62ch}
   .small{font-family:var(--sans);font-size:13px;color:var(--mute);line-height:1.7}
   .rule{height:1px;background:var(--line);margin:64px 0}
@@ -70,7 +70,7 @@
   .hero-grid{display:grid;grid-template-columns:1fr 1fr;gap:80px;align-items:end}
   .hero-meta{display:flex;flex-direction:column;gap:26px}
   .hero-meta .tag{font-family:var(--mono);font-size:11px;letter-spacing:0.18em;color:var(--mute);text-transform:uppercase}
-  .hero-title{font-family:var(--serif);font-weight:400;font-size:clamp(44px,6vw,92px);line-height:1.12;letter-spacing:0.008em}
+  .hero-title{font-family:var(--serif);font-weight:400;font-size:clamp(44px,6vw,92px);line-height:1.12;letter-spacing:0.008em;text-wrap:balance;word-break:auto-phrase}
   .hero-title em{font-style:normal;color:var(--red);font-weight:500}
   .hero-title .thin{font-weight:300;color:var(--ink-2)}
   .hero-sub{margin-top:36px;font-size:18px;line-height:1.9;color:var(--ink-2);max-width:54ch}
@@ -90,7 +90,7 @@
   /* ────────── INTRO / THESIS ────────── */
   .thesis{background:var(--bg);border-top:1px solid var(--line)}
   .thesis-grid{display:grid;grid-template-columns:260px 1fr;gap:80px}
-  .thesis .lead-xl{font-family:var(--serif);font-weight:400;font-size:clamp(28px,2.6vw,38px);line-height:1.6;letter-spacing:0.01em;color:var(--ink)}
+  .thesis .lead-xl{font-family:var(--serif);font-weight:400;font-size:clamp(28px,2.6vw,38px);line-height:1.6;letter-spacing:0.01em;color:var(--ink);text-wrap:balance;word-break:auto-phrase}
   .thesis .lead-xl .hi{color:var(--red);font-weight:500}
   .thesis .lead-xl .q{font-family:var(--serif);font-size:1.2em;font-weight:500}
   .thesis-after{margin-top:60px;color:var(--ink-2);max-width:62ch;font-size:17px;line-height:1.9}
@@ -290,7 +290,7 @@
           <em>母語で深く考える力</em>。
         </h1>
         <p class="hero-sub">
-          海外駐在員の子どもを対象とした、最難関受験 ／ 国語オンデマンド映像授業。<br>
+          海外駐在員の子供を対象とした、最難関受験 ／ 国語オンデマンド映像授業。<br>
           スタディサプリが撤退した 2022 年以来、このポジションに誰もいない。<br>
           今だけ残されている空白に、最強塾の授業を届ける事業の提案です。
         </p>
@@ -357,7 +357,7 @@
           その力は、<span class="hi">母国語でしか磨かれない</span>。
         </p>
         <p class="thesis-after">
-          一方で、世界に散らばる 37 万人の海外在住邦人の子どもたちは、最高水準の日本語教育から切り離されている。この 2 つのベクトルが、今この瞬間に交差しはじめている。そこに、最強塾が長年磨いてきた「思考力を育てる国語授業」を届ける。——これが、本事業の核である。
+          一方で、世界に散らばる 37 万人の海外在住邦人の子供たちは、最高水準の日本語教育から切り離されている。この 2 つのベクトルが、今この瞬間に交差しはじめている。そこに、最強塾が長年磨いてきた「思考力を育てる国語授業」を届ける。——これが、本事業の核である。
         </p>
       </div>
     </div>
@@ -380,7 +380,7 @@
           </div>
           <div class="item">
             <div class="label">Vector B · 現場</div>
-            <div class="text">海外在住邦人家庭の「子どもの母語教育」への切実なニーズ。赴任中の 3〜5 年が受験期と重なるケースが多数。</div>
+            <div class="text">海外在住邦人家庭の「子供の母語教育」への切実なニーズ。赴任中の 3〜5 年が受験期と重なるケースが多数。</div>
           </div>
         </div>
       </div>
@@ -496,7 +496,7 @@
 <section id="service" class="service">
   <div class="wrap">
     <div class="section-num">05 ／ サービスの中身</div>
-    <h2 class="h2 display" style="margin-top:16px">週に一度、映像・演習・先生の言葉が届く。<br>それだけで、子どもの思考は深まる。</h2>
+    <h2 class="h2 display" style="margin-top:16px">週に一度、映像・演習・先生の言葉が届く。<br>それだけで、子供の思考は深まる。</h2>
     <p class="lead" style="margin-top:28px;max-width:64ch">最初のコースは「最難関受験コース（灘・開成・麻布志望の小 4〜小 6）」に絞る。最強塾の既存顧客（国内在住）と、海外駐在員家庭の両方に同一コンテンツで刺さる。週 1 セットを、オンデマンドで。</p>
 
     <div class="week-grid">
@@ -597,7 +597,7 @@
         <div class="scale"><div class="n">40 万</div><div class="u">家族が受講</div></div>
         <div class="meta">海外在住の中国系家庭に中国語教育を。新規の 3 分の 2 が口コミ経由。</div>
         <p>「母語を守りたい」という普遍的ニーズを、高単価 × 専科で捉えた。先生の個別フィードバックが口コミを生む設計。</p>
-        <div class="take">先生が月 1 回、子どもの記述に<strong>名前で言及</strong>する仕組みを本事業にも移植する。</div>
+        <div class="take">先生が月 1 回、子供の記述に<strong>名前で言及</strong>する仕組みを本事業にも移植する。</div>
       </div>
       <div class="bench-cell">
         <div class="flag">Case B ／ 米国 · 最高収益学習アプリ</div>
@@ -612,7 +612,7 @@
         <div class="name">Lingokids</div>
         <div class="scale"><div class="n">100</div><div class="u">カ国で展開</div></div>
         <div class="meta">幼児〜小学生に英語をオンデマンドで。「非英語圏 × 母語以外」の鏡像構造。</div>
-        <p>映像とゲームの組み合わせで子どもが自発的に続ける。読解の深さは映像、定着はゲーム、という役割分離。</p>
+        <p>映像とゲームの組み合わせで子供が自発的に続ける。読解の深さは映像、定着はゲーム、という役割分離。</p>
         <div class="take">語彙・漢字にはゲーム要素を、<strong>読解の深さにはゲーム要素を入れない</strong>という設計原則を採用。</div>
       </div>
     </div>
